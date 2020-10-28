@@ -10,7 +10,7 @@ public class PersonalStatementViewModel extends ViewModel {
 
     public PersonalStatementViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("Upload a pdf format of your Personal Statement. Filename must start with the phone number used during registration. '\n'e.g 0123456789PersonalStatement");
     }
 
     public LiveData<String> getText() {

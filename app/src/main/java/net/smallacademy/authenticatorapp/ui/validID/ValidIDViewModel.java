@@ -10,7 +10,7 @@ public class ValidIDViewModel extends ViewModel {
 
     public ValidIDViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("Upload a pdf format of your valid ID e.g International Passport. Filename must start with the phone number used during registration. '\n'e.g 0123456789ValidID");
     }
 
     public LiveData<String> getText() {

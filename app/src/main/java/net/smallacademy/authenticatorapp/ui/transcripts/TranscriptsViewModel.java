@@ -10,7 +10,7 @@ public class TranscriptsViewModel extends ViewModel {
 
     public TranscriptsViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("Upload a pdf format of your educational transcripts. Filename must start with the phone number used during registration. '\n'e.g 0123456789Transcripts");
     }
 
     public LiveData<String> getText() {
