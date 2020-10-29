@@ -12,7 +12,9 @@ public class CVViewModel extends ViewModel {
 
     public CVViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Upload a pdf format of your C.V. Filename must start with the phone number used during registration. '\n'e.g 0123456789CV");
+        mText.setValue("Upload a pdf format of your C.V. " +
+                "Filename must start with the phone number used during registration." +
+                "\ne.g 0123456789CV");
     }
 
     public LiveData<String> getText() {

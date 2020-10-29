@@ -10,7 +10,7 @@ public class ResultsViewModel extends ViewModel {
 
     public ResultsViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Upload a pdf format of your O'Level Result. Filename must start with the phone number used during registration. '\n'e.g 0123456789Result");
+        mText.setValue("Upload a pdf format of your O'Level Result. Filename must start with the phone number used during registration. \ne.g 0123456789Result");
     }
 
     public LiveData<String> getText() {

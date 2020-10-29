@@ -10,7 +10,9 @@ public class BirthCertificateViewModel extends ViewModel {
 
     public BirthCertificateViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("Upload a pdf format of your Birth Certificate. " +
+                "Filename must start with the phone number used during registration." +
+                "\ne.g 0123456789BirthCertificate");
     }
 
     public LiveData<String> getText() {

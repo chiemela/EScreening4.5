@@ -10,7 +10,7 @@ public class IELTSViewModel extends ViewModel {
 
     public IELTSViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Upload a pdf format of your IELTS. Filename must start with the phone number used during registration. '\n'e.g 0123456789IELTS");
+        mText.setValue("Upload a pdf format of your IELTS. Filename must start with the phone number used during registration. \ne.g 0123456789IELTS");
     }
 
     public LiveData<String> getText() {
